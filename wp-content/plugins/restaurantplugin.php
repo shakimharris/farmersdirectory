@@ -12,10 +12,11 @@ add_action ('init', 'ga_restaurant_plug_post_type');
 
 
 function ga_restaurant_plug_post_type() {
-register_post_type('recipe', 
+register_post_type( 'recipe', 
             array(
             'labels' => array(
                 'name' => __('Recipe')
+                'singular_name' => __('Recipe')
             ),  
             'public' => true,
             'has_archive' => true
