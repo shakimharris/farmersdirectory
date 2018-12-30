@@ -22,18 +22,13 @@ function ga_restaurant_plug_post_type() {
         'parent_item_colon'  => __( 'Parent Recipe', 'gourmet-artist' ),
         'all_items'          => __( 'All Recipes', 'gourmet-artist' ),
         'view_item'          => __( 'View Recipe', 'gourmet-artist' ),
-        'add_new_item'       => __( '', '')
-        'add_new'            => __( '', '')
-        'edit_item'          => __( '', '')
-        'update_item'
-
-
-
-
-
-
-
-
+        'add_new_item'       => __( 'Add New Recipe', 'gourmet-artist'),
+        'add_new'            => __( 'Add New Recipe', 'gourmet-artist'),
+        'edit_item'          => __( 'Edit Recipe', 'gourmet-artist'),
+        'update_item'        => __( 'Updated Recipe', 'gourmet-artist'),
+        'search_items'       => __( 'Search Recipes', 'gourmet-artist'),
+        'not_found'          => __( 'No Recipes Found', 'gourmet-artist'),
+        'not_found_in_trash' => __( 'No Recipes Found in Trash', 'gourmet-artist'),
     );
 
 
