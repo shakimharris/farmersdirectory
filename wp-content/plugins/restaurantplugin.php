@@ -56,26 +56,26 @@ function ga_restaurant_events_post_type() {
 
     //Labels for the Post Type
     $labels = array(
-        'name'               => _X( 'Recipes', 'Post Type General Name', 'gourmet-artist' ),
-        'singular_name'      => _X( 'Recipe', 'Post Type Singular Name', 'gourmet-artist' ),
-        'menu_name'          => __(  'Recipes', 'gourmet-artist' ),
-        'parent_item_colon'  => __( 'Parent Recipe', 'gourmet-artist' ),
-        'all_items'          => __( 'All Recipes', 'gourmet-artist' ),
-        'view_item'          => __( 'View Recipe', 'gourmet-artist' ),
-        'add_new_item'       => __( 'Add New Recipe', 'gourmet-artist'),
-        'add_new'            => __( 'Add New Recipe', 'gourmet-artist'),
-        'edit_item'          => __( 'Edit Recipe', 'gourmet-artist'),
-        'update_item'        => __( 'Updated Recipe', 'gourmet-artist'),
-        'search_items'       => __( 'Search Recipes', 'gourmet-artist'),
-        'not_found'          => __( 'No Recipes Found', 'gourmet-artist'),
-        'not_found_in_trash' => __( 'No Recipes Found in Trash', 'gourmet-artist'),
+        'name'               => _X( 'Events', 'Post Type General Name', 'gourmet-artist' ),
+        'singular_name'      => _X( 'Event', 'Post Type Singular Name', 'gourmet-artist' ),
+        'menu_name'          => __(  'Events', 'gourmet-artist' ),
+        'parent_item_colon'  => __( 'Parent event', 'gourmet-artist' ),
+        'all_items'          => __( 'All Events', 'gourmet-artist' ),
+        'view_item'          => __( 'View Events', 'gourmet-artist' ),
+        'add_new_item'       => __( 'Add New Event', 'gourmet-artist'),
+        'add_new'            => __( 'Add New Event', 'gourmet-artist'),
+        'edit_item'          => __( 'Edit Event', 'gourmet-artist'),
+        'update_item'        => __( 'Updated Event', 'gourmet-artist'),
+        'search_items'       => __( 'Search Event', 'gourmet-artist'),
+        'not_found'          => __( 'No Events Found', 'gourmet-artist'),
+        'not_found_in_trash' => __( 'Not Found in Trash', 'gourmet-artist'),
     );
 
 // Additional Customizations
 
 $args = array(
-    'label' => __('Recipes', 'gourmet-artist'),
-    'description' => __('Recipes For Gourmet Artistry', 'gourmet-artist'),
+    'label' => __('Events', 'gourmet-artist'),
+    'description' => __('Events For Gourmet Artistry', 'gourmet-artist'),
     'labels' => $labels, 
     'supports' => array('title', 'editor', 'revisions', 'thumbnails'),
     'hierarchical' => false,
@@ -83,8 +83,8 @@ $args = array(
     'show_ui' => true,
     'show_in_menus' => true,
     'show_in_nav_menus' => true,
-    'menu_position' => 5,
-    'menu-icon' => 'dashicons-admin-page',
+    'menu_position' => 6,
+    'menu-icon' => 'dashicons-hammer',
     'can_export' => true,
     'has_archive' => true,
     'exclude_from_search' => false,
