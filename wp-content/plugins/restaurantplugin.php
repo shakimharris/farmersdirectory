@@ -33,7 +33,7 @@ function ga_restaurant_plug_post_type() {
 
 // Additional Customizations
 
-$arg = array(
+$args = array(
     'label' => __('Recipes', 'gourmet-artist'),
     'description' => __('Recipes For Gourmet Artistry', 'gourmet-artist'),
     'labels' => $labels, 
@@ -50,7 +50,10 @@ $arg = array(
     'exclude_from_search' => false,
     'capability_type' => 'page',
 );
+
+
 // Register the Post type
+register_post_type( 'recipes', $args);
 }
 
 
