@@ -17,6 +17,8 @@ register_post_type('recipe',
             'labels' => array(
                 'name' => __('Recipe')
             ),  
+            'public' => true,
+            'has_archive' => true
         )
         );
 }
