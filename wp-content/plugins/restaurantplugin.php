@@ -16,8 +16,8 @@ function ga_restaurant_plug_post_type() {
 
     //Labels for the Post Type
     $labels = array(
-        'name'               => __X( 'Recipes', 'Post Type General Name', 'gourmet-artist' ),
-        'singular_name'      => __X( 'Recipe', 'Post Type Singular Name', 'gourmet-artist' ),
+        'name'               => _X( 'Recipes', 'Post Type General Name', 'gourmet-artist' ),
+        'singular_name'      => _X( 'Recipe', 'Post Type Singular Name', 'gourmet-artist' ),
         'menu_name'          => __(  'Recipes', 'gourmet-artist' ),
         'parent_item_colon'  => __( 'Parent Recipe', 'gourmet-artist' ),
         'all_items'          => __( 'All Recipes', 'gourmet-artist' ),
