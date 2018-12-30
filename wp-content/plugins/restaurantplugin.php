@@ -37,8 +37,20 @@ $arg = array(
     'label' => __('Recipes', 'gourmet-artist'),
     'description' => __('Recipes For Gourmet Artistry', 'gourmet-artist'),
     'labels' => $labels, 
-    'supports' => array()
-)
+    'supports' => array('title', 'editor', 'revisions', 'thumbnails'),
+    'hierarchical' => false,
+    'public' => true,
+    'show_ui' => true,
+    'show_in_menus' => true,
+    'show_in_nav_menus' => true,
+    'menu_position' => 5,
+    'menu-icon' => 'dashicons-admin-page',
+    'can_export' => true,
+    'has_archive' => true,
+    'exclude_from_search' => false,
+    'capability_type' => 'page',
+);
+// Register the Post type
 }
 
 
