@@ -31,7 +31,14 @@ function ga_restaurant_plug_post_type() {
         'not_found_in_trash' => __( 'No Recipes Found in Trash', 'gourmet-artist'),
     );
 
+// Additional Customizations
 
+$arg = array(
+    'label' => __('Recipes', 'gourmet-artist'),
+    'description' => __('Recipes For Gourmet Artistry', 'gourmet-artist'),
+    'labels' => $labels, 
+    'supports' => array()
+)
 }
 
 
